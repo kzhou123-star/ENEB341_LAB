@@ -24,6 +24,7 @@
 
 /* Blynk datastream topics 
 TODO: define tempture, pressure, and Altitude (3 lines of code)
+Hint: read LAB7_Part3.c
 */
 
 #define QOS         1
