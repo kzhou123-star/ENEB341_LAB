@@ -15,7 +15,7 @@
 #define USERNAME "device"
 
 /*
- * Replace with your own Blynk Device Auth Token.
+ * TODO: Replace with your own Blynk Device Auth Token.
  */
 #define PASSWORD "YOUR_BLYNK_AUTH_TOKEN"
 
