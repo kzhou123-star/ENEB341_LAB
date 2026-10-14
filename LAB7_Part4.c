@@ -170,8 +170,6 @@ int main()
     /*
      * Initialize BMP180
      *
-     * These are the same settings from your
-     * instructor's original pubSensor.c
      */
     char *i2c_device = "/dev/i2c-1";
 
