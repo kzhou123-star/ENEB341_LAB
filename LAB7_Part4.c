@@ -232,71 +232,27 @@ int main()
         char pressureMessage[32];
         char altitudeMessage[32];
 
-
-        snprintf(
-            tempMessage,
-            sizeof(tempMessage),
-            "%.2f",
-            temperature
-        );
-
-        snprintf(
-            pressureMessage,
-            sizeof(pressureMessage),
-            "%ld",
-            pressure
-        );
-
-        snprintf(
-            altitudeMessage,
-            sizeof(altitudeMessage),
-            "%.2f",
-            altitude
-        );
+        /*
+            TODO: Convert readings to strings for temperature, pressure, and altitude. 
+            Use tempMessage, pressureMessage, and altitudeMessage for your output.
+            Hint: use snprintf();
+        */
 
 
         /*
-         * Print readings to Raspberry Pi terminal
+         * Print readings of temperature, pressure, and altitude to Raspberry Pi terminal. 
+             Hint:use printf();
+         
          */
         printf("------------------------------\n");
 
-        printf(
-            "Temperature: %.2f C\n",
-            temperature
-        );
-
-        printf(
-            "Pressure: %ld Pa\n",
-            pressure
-        );
-
-        printf(
-            "Altitude: %.2f m\n",
-            altitude
-        );
 
 
         /*
-         * Publish each reading to its
-         * Blynk datastream.
+         * TODO: Publish tempMessage, pressureMessage, altitudeMessage to its Blynk datastream.
+         Hint: use publishValue();
+         
          */
-        publishValue(
-            client,
-            TEMP_TOPIC,
-            tempMessage
-        );
-
-        publishValue(
-            client,
-            PRESSURE_TOPIC,
-            pressureMessage
-        );
-
-        publishValue(
-            client,
-            ALTITUDE_TOPIC,
-            altitudeMessage
-        );
 
 
         printf("Published to Blynk!\n\n");
