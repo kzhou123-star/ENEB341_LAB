@@ -20,7 +20,7 @@
  * Put YOUR Blynk Auth Token here.
  * Use the same token that worked in Part III.
  */
-#define PASSWORD "Put YOUR Blynk Auth Token here"
+#define PASSWORD "YOUR_BLYNK_AUTH_TOKEN"
 
 /* Blynk datastream topics 
 TODO: define tempture, pressure, and Altitude (3 lines of code)
