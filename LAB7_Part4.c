@@ -19,6 +19,7 @@
 /*
  * Put YOUR Blynk Auth Token here.
  * Use the same token that worked in Part III.
+ * TODO
  */
 #define PASSWORD "YOUR_BLYNK_AUTH_TOKEN"
 
