@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <MQTTClient.h>
 #include "bmp180.h"
+#include <wiringPi.h>
 
 /*
  * Use the SAME Blynk server that worked in Part III.
